@@ -31,35 +31,37 @@ Problem Statement
 *********************************************************************************************************************************
 
 
-Features :
-        -> Modular Structure App
-        -> Each Api works on single task
-        -> Each utility functions for a single task of its own 
+Features 
+* Modular Structure App
+* -> Each Api works on single task
+* -> Each utility functions for a single task of its own 
         
         
 Solution 
 
 Entities :
-
-# user_id (Unique id):
+```
+user_id (Unique id):
 - first_name
 - last_name
 - age
 if no user-id :
     # Read all existing users
 else :
-    # Read a specific existing user's details using  :
+     Read a specific existing user's details using  :
         - user_id
         - first name
         - last name
         - full name
 
-
-# 
+```
+ 
 
 ## API’s Summary :
-
+```
 /user       POST    -   create_user()
 /users  -   GET     -   get_all_users()
 /searchbyid/<user_id>   -   GET     -   get_user_by_id
 /search     -   POST    -   get_user_by_name
+/update     -   POST    -   update_user_details
+```
