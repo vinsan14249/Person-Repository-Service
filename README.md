@@ -1,6 +1,7 @@
 # Person-Repository-Service
 App backend to store user details based on flask app.
 
+API Guide for APP :https://github.com/vinsan14249/Person-Repository-Service/wiki/Person-Repository-ServiceAPI-Guide 
 
 Problem Statement
 
